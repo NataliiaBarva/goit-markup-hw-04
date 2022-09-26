@@ -278,11 +278,23 @@ main {
   display: block;
   content: '';
   height: 120px;
-  background-image: url("../images/antenna.svg");
   background-size: 65px 70px;
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--primary-light-bg);
+}
+
+.icon-antenna::before {
+  background-image: url("../images/antenna.svg");
+}
+.icon-clock::before {
+  background-image: url("../images/clock.svg");
+}
+.icon-diagram::before {
+  background-image: url("../images/diagram.svg");
+}
+.icon-astornaut::before {
+  background-image: url("../images/astronaut.svg");
 }
 .job-section {
   padding-top: 0;
