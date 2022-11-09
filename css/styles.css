@@ -147,7 +147,7 @@ header {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-}
+  }
 
 
 .auth-nav-item {
@@ -186,6 +186,7 @@ header {
 .icon-mail,
 .icon-tel {
   fill: currentColor;
+  margin-right: 10px;
 }
 
 main {
@@ -330,9 +331,6 @@ main {
   background: var(--primary-light-bg);
   border-radius: 4px;
   margin-bottom: 30px;
-}
-.job-section {
-  padding-top: 0;
 }
 
 .job {
@@ -545,6 +543,7 @@ img {
     display: flex;
     justify-content: center;
     column-gap: 30px;
+   
   }
 
   .logo-klient-item-link {
@@ -586,7 +585,7 @@ address {
 .footer-logo {
   margin-bottom: 20px;
   display: block;
-  
+  padding: 0;
 }
 
 .footer-link {
